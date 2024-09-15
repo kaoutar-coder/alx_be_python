@@ -10,6 +10,6 @@ width = 5
 print ("length = 10")
 print ("width = 5")
 print("Area= lengh * width")
-print(str(length*width))
-area=(length*width)
+area=str (length*width)
+print (area)
 print ("the area oh the rectangle is a :"+str(area))
