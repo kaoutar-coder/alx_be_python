@@ -5,7 +5,11 @@
 # 4 variable area
 # 5 pint  the area oh the rectangle is a : [area]
 
-length=10
-width=5
-area=str(length*width) 
-print ("the area oh the rectangle is a :"+(area))
+length = 10
+width = 5
+print ("length = 10")
+print ("width = 5")
+print("Area= lengh * width")
+print(str(length*width))
+area=(length*width)
+print ("the area oh the rectangle is a :"+str(area))
