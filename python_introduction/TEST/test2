@@ -1,0 +1,121 @@
+rows = 5  # Define the height of the pyramid
+
+# Outer loop for each row
+i = 1
+while i <= rows:
+    # Inner loop to print spaces
+    spaces = 1
+    while spaces <= rows - i:
+        print(" ", end="")  # Print space without a newline
+        spaces += 1
+    
+    # Inner loop to print asterisks
+    asterisks = 1
+    while asterisks <= (2 * i - 1):
+        print("*", end="")  # Print asterisk without a newline
+        asterisks += 1
+    
+    # Move to the next line after printing a row
+    print()
+    
+    i += 1
+
+
+
+
+
+
+
+
+
+
+rows=5
+# Outer loop for each row
+i=1       
+# Inner loop to print spaces          
+while i<=rows :
+   spaice=1
+   while spaice <= rows-i :               
+    print(" ", end="")
+    spaice+=1
+# Print asterisk without a newline # multiplication astterisks
+astterisks=1
+while astterisks<= (2 * i - 1):
+  print("*", end="")                        
+  astterisks +=1                              
+
+print()
+    
+i += 1
+
+
+
+
+
+
+
+
+
+
+
+
+rows = 5
+
+for i in range(1, rows + 1):
+  # Outer loop controls the number of rows
+  for j in range(1, i + 1):
+    # Inner loop prints asterisks for each row
+    print("*", end="")
+  print()  # Move to a new line after each row of asterisks
+
+
+
+
+for i in range(1, 11):
+  # Outer loop iterates through rows (multiplication factors)
+  for j in range(1, 11):
+    # Inner loop iterates through columns (other factors)
+    product = i * j
+    print(f"{i} x {j} = {product}", end="\t")  # Print with tabs for better formatting
+  print()  # Move to a new line after each row
+
+
+
+
+
+
+
+
+
+
+numbers= [1, 5, 3, 9]
+total= 0          # Initialize a variable total to 0
+for number in numbers:
+     total += number
+     print (total)
+
+     shopping_list = ["apples", "bread", "milk", "cheese"]
+item_found = False
+
+while not item_found:
+  item = input("Search for an item in your list (or 'q' to quit): ")
+  if item.lower() == "q":
+    break  # Exit the loop if user enters 'q'
+  if item in shopping_list:
+    item_found = True
+    print(f"{item} is on your shopping list.")
+  else:
+    print(f"{item} is not on your list.")
+
+
+    outer_count = 5
+
+while outer_count > 0:
+  # Outer loop controls the number of times the inner loop runs
+  inner_count = 1
+  while inner_count <= outer_count:
+    # Inner loop repeats for each outer loop iteration
+    print(inner_count, end=" ")
+    inner_count += 1
+  print()  # Move to a new line after each outer loop iteration
+  outer_count -= 1
