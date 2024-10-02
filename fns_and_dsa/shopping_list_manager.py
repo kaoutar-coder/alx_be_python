@@ -1,4 +1,4 @@
-shopping_list = ['apple', 'oil', 'graps','suger']
+
 
 def display_menu():
     print("Shopping List Manager")
@@ -7,7 +7,7 @@ def display_menu():
     print("3. View List")
     print("4. Exit")
 def main():
-    shopping_list = ['apple', 'oil', 'graps','suger']
+    shopping_list = []
 
     while True:
         display_menu()
@@ -24,6 +24,6 @@ def main():
             break
         else:
             print("Invalid choice. Please try again.")
-            
+
 if __name__ == "__main__":
     main()
