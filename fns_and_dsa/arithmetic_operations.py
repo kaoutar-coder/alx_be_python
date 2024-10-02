@@ -1,3 +1,5 @@
+
+
 def perform_operation(num1,num2,operation):
     if operation =="add" :
         return num1+num2
@@ -9,6 +11,6 @@ def perform_operation(num1,num2,operation):
         if num2 == 0:
             raise ValueError("can not divide by zero")
         return num1/num2
+    else:
+        return "Invalid operation"
     
-
-   
