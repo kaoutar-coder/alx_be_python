@@ -14,14 +14,20 @@ def main():
         choice = input("Enter your choice: ")
         
         if choice == '1':
-            shopping_list.append(input("enter the item name to add:  "))
+            item= input("enter the item name to add:  ")
+            shopping_list.append(item)
+
         elif choice == '2':
-             shopping_list.remove(input("enter the item name to remove:  "))
+            item= input("enter the item name to remove:  ")
+            shopping_list.remove()
+            
         elif choice == '3':
             print(shopping_list)
+
         elif choice == '4':
             print("Goodbye!")
             break
+        
         else:
             print("Invalid choice. Please try again.")
 
