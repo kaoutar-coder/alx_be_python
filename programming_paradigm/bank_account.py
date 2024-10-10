@@ -8,15 +8,15 @@ class BankAccount:
     def withdraw(self,amount):
         
         if amount <= self.account_balance: 
-         return False
-        
+            self.account_balance -= amount
+            return True
+         
         else:
-         self.account_balance -= amount
-         return True
+         return False
         
     
     def display_balance(self):
-        print(f"current balance:" {self.account_balance}")
+        print(f"current balance: {self.account_balance}")
 
 
 #  Le paramètre self est nécessaire pour accéder aux attributs et méthodes de l'instance de la classe.
