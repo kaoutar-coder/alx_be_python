@@ -1,9 +1,7 @@
 def safe_divide(numerator, denominator):
     try:
-        numerator= float(input("enter the numerator: "))
-        denominator= float(input("enter the denominator: "))
-
-        result=numerator/denominator
+        
+        result=float(numerator) / float(denominator)
 
         return f"the result of divising {numerator} by {denominator} is {result}"
 
